@@ -1,0 +1,8 @@
+<include>
+  <extension name="echo_test">
+    <condition field="destination_number" expression="^1000$">
+      <action application="answer"/>
+      <action application="echo"/>
+    </condition>
+  </extension>
+</include>
